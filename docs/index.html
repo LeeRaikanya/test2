@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="hacker-solid (1).svg" type="image/x-icon">
+    <link rel="shortcut icon" href="hacker-solid (1).svg" type="image/x-icon">
+    <title>Raikanya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="top">
+        <a href="index.html" class="logo"> Lee Raikanya </a>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <a href="about.html" class="navlink"> About me </a>
+        <a href="#work" class="navlink smooth-scroll"> Projects</a>
+        <a href="https://drive.google.com/file/d/1rJsSm8NswVSIRrFhEHKZ1xxkWihyH4Y4/view?usp=sharing" class="navlink"> Resume </a>
+    </nav>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelectorAll('.navlink');
+            navLinks.forEach(link => {
+                link.classList.toggle('show'); 
+            });
+            const menuIcon = document.querySelector('.menu-icon');
+            menuIcon.classList.toggle('open'); 
+        }
+    </script>
+    <div class="hero ">
+        <div class="intro"><h1 style="font-weight: normal;"> Hi, Im <span style="color:#8C6057;">Lee.</span> <br> An IT Student at KCA University | <span style="color: #8C6057;"> Aspiring solutions architect</span> <br> From Nairobi, Kenya <img src="kenya (3).svg"></h1>  
+            <div class="profiles">
+            <p class="glowing-text">Contact me --- >>>> </p>
+            <a href=" https://www.linkedin.com/in/leeraikanya/" title="Linkedin"> <img src="linkedin (1).svg" style="margin-top: 2px;"> </a>
+            <a href="mailto:leeraikanya7@gmail.com" title="Gmail"><img src="mail (1) (1).svg"> </a>
+            <a href="https://github.com/LeeRaikanya" title="Github"><img src="github (2).svg"> </a>
+            </div>
+        </div>   
+    </div>
+                <div class="pic"><img src="lee.jpg"></div>
+        <h2 style="text-align: center;color: #8C6057;font-weight: bold; margin-top: 10px;"> Languages and Skills</h2> 
+        <div class="lang">
+             <div class="grid-item"> <img src="html-5 (1).svg" title="Frontend"> HTML </div>
+             <div class="grid-item"> <img src="css3 (1).svg"> CSS</div>
+             <div class="grid-item"> <img src="javascript (1).svg" style="margin-right: 10px;"> JavaScript</div>
+             <div class="grid-item"> <img src="python (1).svg"> Python</div>
+             <div class="grid-item"> <img src="web (1).svg" > Web 3 </div>
+             <div class="grid-item"> <img src="computer-code (1).svg"> Software Dev </div>
+             <div class="grid-item"> <img src="layers (1).svg" style="padding-left: 20px;"> Full stack development </div>
+             <div class="grid-item"> <img src="code-branch (1).svg"> Git/Github</div>
+             <div class="grid-item"> <img src="connection-cables (1).svg"> Networking principles</div>
+             <div class="grid-item"> <img src="computer-process (1).svg" style="margin-right: 10px; padding-left: 30px; margin-left: 20px;" > IT essentials and troubleshooting </div>  
+        </div>
+        <p id="work"></p>
+        <h2 style="text-align: center;color: #8C6057;font-weight: bold;margin-top: 30px;margin-bottom: 20px;"> Projects</h2>
+        
+        <div class="projects">
+            <h1>Coming soon.</h1>
+
+        </div>
+    
+
+       
+
+       
+
+        
+
+
+
+
+
+
+        <footer>
+            <p style="text-align: center;" > copyright Lee Raikanya 2023 </P>
+        </footer>
+        
+        <script>
+            window.onload = function() {
+              document.body.style.opacity = '1';
+            };
+          </script>
+</body>
+</html>
